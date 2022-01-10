@@ -1,0 +1,169 @@
+# name = input('Tell me your name,punk:')
+# age = input('and your age:')
+# print(name,'you are',age)
+
+# calculate the circumference of a circle
+# radius = input('Enter radius:')
+# circumference = 2 * 3.142 * int(radius)
+# print('The circumference is:',circumference)
+
+# calculate maximum bending moment
+# load = input('Enter load (KN):')
+# length = input('Enter length of beam (m):')
+# BendingMoment = (int(load)*int(length)**2)/8
+# print('BendingMoment is', BendingMoment,'KN/M')
+
+# calculate kinetic energy
+# mass = input('Enter mass (kg):')
+# velocity = input('Enter velocity (m/s):')
+# KineticEnergy = 1/2*(int(mass)*int(velocity)**2)
+# print('Kinetic Energy is', KineticEnergy, 'Kgm/s')
+
+# calculate area of single reinforcement of a beam
+# moment = input('Enter maximum bending moment (kn.mm):')
+# fy = input('Enter yield strenth (fy)(kn/mm):')
+# d = input('Enter depth of beam (mm):')
+# z = 0.775 * int(d)
+# As = int(moment)/0.95*int(fy)*int(z)
+# print(f'Area of steel reinforcement is{As:.1f}','metersquare')
+
+# score = int(input('Please enter score:'))
+# if score>=70:
+#    print('Your grade is an A')
+# elif score >= 60 :
+#    print('your grade is a B')
+# elif score >= 50 :
+#     print('your grade is a C')
+# else:
+#     print('your grade is an F')
+
+# # Calculate the values of x in quadratic equation
+# a = input('Enter value of a:')
+# b = input('Enter value of b:')
+# c = input('Enter value of c:')
+# X1 = (-int(b)+(int(b)**2 + 4 * int(a) * int(c))**0.5) / 2 * int(a)
+# X2 = (-int(b)-(int(b)**2 + 4 * int(a) * int(c))**0.5) / 2 * int(a)
+# print(f'The values of X are {X1:.2f} and {X2:.2f}')
+
+# for loops
+# family = ['kokoette', 'ime', 'promise']
+#
+# for brother in family:
+#     if brother == 'kokoette':
+#       print(f'{brother}- is an engineer')
+#     elif brother == 'ime':
+#       print(f'{brother}','is a technologist')
+#       break
+#     else:
+
+# Range
+# for n in range(5):
+#     print(n)
+
+# Engineering = ['civil', 'mechanical','chemical','electrical','petroleum','gas','environmental']
+# for n in range(len(Engineering) -1, -1, -1):
+#     print(n,Engineering[n])
+
+# Functions
+# Calculation of power
+# def energy(force, distance):
+#     return force * distance
+# def power(energy,time):
+#     print(energy/time,'N/s')
+# force = float(input('Enter the value of force(N):'))
+# distance = float(input('Enter the value of distance(m):'))
+# time = int(input('Enter value of time (s):'))
+# power(energy(force, distance),time)
+
+# # Largest number/ smallest number
+# num1 = int(input('Enter number1:'))
+# num2 = int(input('Enter number2:'))
+# num3 = int(input('Enter number3:'))
+# smallest_number = min(num1,num2,num3)
+# print('The smallest number is', smallest_number)
+
+# i = 1
+# while i < 5:
+#     print(i)
+#     i += 1
+# else:
+#     print('else', i)
+
+# word ='python'
+# for letter in word:
+#     print(letter)
+
+# for i in range(0, 3):
+#     print(i)
+# else:
+#     print(i, 'else')
+
+# email = 'kelvinekpo@gmail.com'
+# for ch in email:
+#     if ch == '@':
+#         print(ch)
+
+# digit = '013457046460'
+# for num in digit:
+#     print(num)
+#     if num == '0':
+#         print('x')
+#         continue
+#         print(digit)
+
+# While loop
+# age = 20
+# num = 0
+#
+# while num < age:
+#     if num == 0:
+#         num += 1
+#         continue
+#     if num % 2 == 0:
+#         print(num)
+#     if num > 10:
+#         break
+# num += 1
+
+# Dictionaries
+# def self_intro(dictionary):
+#     for key,val in dictionary.items():
+#         print(f'my name is {key} and i am {val}')
+#
+# nigerians_ethnicity = {}
+# while True:
+#     name = input('Enter your native name:')
+#     ethnicity = input('Enter your ethnic group:')
+#     nigerians_ethnicity[name]= ethnicity
+#
+#     another = input('Enter another name and ethnicity (y/n):')
+#     if another == 'y':
+#         continue
+#     else:
+#         break
+# self_intro(nigerians_ethnicity)
+
+# Sorting and set
+# def ethnicity_count(dictionary):
+#     tribes = list(dictionary.values())
+#     for tribe in set(tribes):
+#         num = tribes.count(tribe)
+#         print(f'There are/is {num} {tribe} person')
+
+# def self_intro(dictionary):
+#      for key,val in dictionary.items():
+#         print(f'my name is {key} and i am {val}')
+
+# nigerians_ethnicity = {}
+# while True:
+#     name = input('Enter your native name:')
+#     ethnicity = input('Enter your ethnic group:')
+#     nigerians_ethnicity[name]= ethnicity
+#
+#     another = input('Enter another name and ethnicity (y/n):')
+#     if another == 'y':
+#         continue
+#     else:
+#         break
+# ethnicity_count(nigerians_ethnicity)
+
